@@ -1,0 +1,47 @@
+body {
+  background-color: #f9f8d6;
+  text-align: center;
+}
+
+.container-fluid {
+  width: 85%;
+}
+
+div {
+  padding: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit !important;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a>div:hover, a>div:active {
+  border: 2px solid #88d;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.result {
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+/* fix appearance of border shifting */
+a .result:hover, a .result:active {
+  padding: 8px 18px;
+}
+
+#rand {
+  display: inline;
+}
